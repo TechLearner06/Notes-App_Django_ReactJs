@@ -1,0 +1,13 @@
+# Frontend
+Notes_App_Frontend/node_modules/
+Notes_App_Frontend/build/
+
+# Backend
+Notes_App_Backend/__pycache__/
+Notes_App_Backend/db.sqlite3
+
+Notes_App_Backend/env7/
+# General
+*.env
+.DS_Store
+*.log
