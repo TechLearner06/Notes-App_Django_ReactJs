@@ -1,0 +1,70 @@
+.c-modal-overlay{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(128, 128, 128, 0.466);
+}
+
+
+.c-modal{
+    background-color:white;
+    padding:15px;
+    border-radius: 8px;
+    max-width: 600px;
+    max-height:300px;
+}
+
+
+
+.delete-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-modal-content p{
+    margin-top: 0px;
+}
+
+
+
+.close-button{
+    font-size: 12px;
+    font-weight: bold;
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.del-btn{
+    margin-right: 4px;
+    background-color:green;
+    border:none;
+    outline: none;
+    width:70px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.cancel-btn{
+    margin-right: 4px;
+    background-color:blue;
+    border:none;
+    outline: none;
+    width:70px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}

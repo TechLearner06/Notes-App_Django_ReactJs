@@ -1,0 +1,110 @@
+.add-note{
+    margin:80px;
+    margin-left:500px;
+    min-height: 300px;
+    width:400px;
+    background-color: white;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.177);
+}
+
+
+.heading{
+    font-size: large;
+    color: green;
+    font-family:fantasy;
+}
+
+
+.add-note-form{
+    padding-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.add-note-form input{
+    padding:5px;
+    width:350px;
+    height:30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+   
+}
+
+.add-note-form textarea{
+    padding:5px;
+    width:350px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.add-note-form select{
+    width:365px;
+    height:30px;  
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.add-note-form input:hover{
+    border:2px solid orangered;
+}
+
+
+.add-note-form textarea:hover{
+    border:2px solid orangered;
+}
+
+
+.add-note-form select:hover{
+    border:2px solid orangered;
+}
+
+
+.note-add-btn{
+    margin-top: 10px;
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    outline: none;
+    background-color: green;
+    color: white;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+.can-btn{
+    margin-top: 10px;
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+
+.buttons{
+    margin-top: 20px;
+}

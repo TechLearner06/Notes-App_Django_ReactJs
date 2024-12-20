@@ -1,0 +1,25 @@
+.view-note-section{
+    margin:80px;
+    margin-left: 500px;
+    width:450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.177);;
+}
+
+
+.view-note-title{
+    text-align:center ;
+    font-size: larger;
+}
+
+
+.view-note-content{
+    font-size: 14px;
+}
+
+
+.last-updated{
+    color:grey;
+}
